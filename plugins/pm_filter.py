@@ -455,27 +455,25 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('😎 𝐚𝐝𝐦𝐢𝐧 ', callback_data='admin')
+            InlineKeyboardButton('ᴀᴅᴍɪɴ', callback_data='admin')
+            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ', callback_data='coct'),
+            InlineKeyboardButton('ꜰɪʟᴛᴇʀꜱ', callback_data='auto_manual'),
             ],[
-            InlineKeyboardButton('🗳️ 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 ', callback_data='coct'),
-            InlineKeyboardButton('👻 𝐟𝐢𝐥𝐭𝐞𝐫𝐬 ', callback_data='auto_manual'),
-            InlineKeyboardButton('📖 𝐠𝐭𝐫𝐚𝐧𝐬 ', callback_data='gtrans')
+            InlineKeyboardButton('ɢᴛʀᴀɴꜱ', callback_data='gtrans')
+            InlineKeyboardButton('ɪɴꜰᴏ', callback_data='info'),
+            InlineKeyboardButton('ᴘᴀꜱᴛᴇ', callback_data='paste')
             ],[
-            InlineKeyboardButton('📄 𝐢𝐧𝐟𝐨 ', callback_data='info'),
-            InlineKeyboardButton('🖥️ 𝐩𝐚𝐬𝐭𝐞 ', callback_data='paste')
+            InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='purge')
+            InlineKeyboardButton('ʀᴇꜱᴛʀɪᴄᴛ', callback_data='restric'),
+            InlineKeyboardButton('ꜱᴇᴀʀᴄʜ', callback_data='search'),
             ],[
-            InlineKeyboardButton('💣 𝐩𝐮𝐫𝐠𝐞 ', callback_data='purge')
+            InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='tgraph')
+            InlineKeyboardButton('ᴡʜᴏɪꜱ', callback_data='whois'),
+            InlineKeyboardButton('ꜰᴜɴ', callback_data='fun')
             ],[
-            InlineKeyboardButton('🔇 𝐫𝐞𝐬𝐭𝐫𝐢𝐜𝐭 ', callback_data='restric'),
-            InlineKeyboardButton('🔍 𝐬𝐞𝐚𝐫𝐜𝐡 ', callback_data='search'),
-            InlineKeyboardButton('📸 𝐭𝐠𝐫𝐚𝐩𝐡 ', callback_data='tgraph')
-            ],[
-            InlineKeyboardButton('🤔 𝐰𝐡𝐨𝐢𝐬 ', callback_data='whois'),
-            InlineKeyboardButton('🤡 𝐟𝐮𝐧 ', callback_data='fun')
-            ],[
-            InlineKeyboardButton('🎶 𝐬𝐨𝐧𝐠 ', callback_data='song'),
-            InlineKeyboardButton('🖨️ 𝐣𝐬𝐨𝐧 ', callback_data='json'),
-            InlineKeyboardButton('📎 𝐩𝐢𝐧 ', callback_data='pin')
+            InlineKeyboardButton('ꜱᴏɴɢꜱ', callback_data='song'),
+            InlineKeyboardButton('ᴊꜱᴏɴ', callback_data='json'),
+            InlineKeyboardButton('ᴘɪɴ', callback_data='pin')
             ],[
             InlineKeyboardButton('« Back', callback_data='start')
         ]]
